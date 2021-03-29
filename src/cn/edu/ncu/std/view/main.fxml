@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane
+        prefHeight="400.0"
+        prefWidth="600.0"
+        xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1"
+        fx:controller="cn.edu.ncu.std.control.GuessAction">
+    <children>
+        <Label fx:id="wordTxt" layoutX="251.0" layoutY="70.0" prefHeight="53.0" prefWidth="80.0" text="Word">
+            <font>
+                <Font size="29.0" />
+            </font>
+        </Label>
+        <TextField fx:id="inputTxt" layoutX="205.0" layoutY="138.0" prefHeight="38.0" prefWidth="171.0" />
+        <Button fx:id="guessBtn" onAction="#guess"
+                layoutX="264.0" layoutY="200.0" mnemonicParsing="false" text="Button" />
+    </children>
+</AnchorPane>
